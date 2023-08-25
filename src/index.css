@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background: #F0E130;
+    font-family: 'Indie Flower', cursive;
+
+}
+main {
+    background: white;
+    display: grid;
+    place-items: center;
+    width: 80vw;
+    max-width: 800px;
+    margin: 3rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+}
+.form h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-row {
+    margin: .5rem 0;
+}
+input[type='text'] {
+    border: transparent;
+    background: #D3D3D3;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.fr1 {
+    margin-left: 2.5rem;
+}
+
+.btn {
+  background-color: #F0E130;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 5px 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.fr2 {
+    margin-bottom: 1rem;
+}
+.items {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.task {
+    border: 1px solid;
+    width: 70vw;
+    max-width: 700px;
+    margin: 0.5rem 0;
+    border-radius:0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.task h3 {
+    font-size: 1.25rem;
+}
+.task p {
+    font-size: 1rem; 
+}
+.trash {
+    font-size: 1rem;
+}
+.Toastify__toast {
+    text-transform: capitalize;
+}
